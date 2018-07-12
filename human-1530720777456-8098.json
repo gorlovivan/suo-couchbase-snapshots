@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "human-1530720777456-8098",
-    "rev": "14-153e6f765b4d00000000000002000000",
+    "rev": "15-154085219e2900000000000002000000",
     "expiration": 0,
     "flags": 33554432
   },
@@ -17,12 +17,8 @@
     "filtering_method": "*",
     "has_schedule": {
       "resource": "schedule-0",
-      "live": [
-        "schedule-1530724419819-1913"
-      ],
-      "prebook": [
-        "schedule-1530724419819-1913"
-      ]
+      "live": [],
+      "prebook": []
     },
     "permissions": {
       "ticket-by-id": {
