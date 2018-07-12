@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "id": "task-425395-1",
+    "rev": "11-1540870ba81600005b48fa3402000000",
+    "expiration": 1531509300,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425395-1",
+    "@type": "Task",
+    "identifier": "prebook-add-task--auto-warmup-all--department-1530720923888-7072",
+    "solo": true,
+    "cancellation_code": "department-1530720923888-7072",
+    "stime": 1531422900906,
+    "time": 50543,
+    "regular": false,
+    "task_name": "",
+    "module_name": "prebook",
+    "task_type": "add-task",
+    "params": {
+      "_action": "auto-warmup-all",
+      "organization": {
+        "department-1530720923888-7072": {
+          "org_addr": "office-1530720923888-7072.department-1530720923888-7072",
+          "org_chain": {
+            "0": {
+              "okato": "53401373000",
+              "pin_code_prefix": "252",
+              "has_schedule": {
+                "live": [
+                  {
+                    "has_time_description": [
+                      {
+                        "data": [
+                          [
+                            0,
+                            83460
+                          ]
+                        ],
+                        "state": "a"
+                      }
+                    ],
+                    "has_day": [
+                      "Thursday",
+                      "Monday",
+                      "Tuesday",
+                      "Saturday",
+                      "Friday",
+                      "Wednesday",
+                      "Sunday"
+                    ],
+                    "id": "schedule-0",
+                    "type": "Schedule",
+                    "label": "Основное расписание",
+                    "cas": "1526473762150744064",
+                    "class": "Schedule"
+                  }
+                ],
+                "prebook": [
+                  {
+                    "has_time_description": [
+                      {
+                        "data": [
+                          [
+                            0,
+                            83460
+                          ]
+                        ],
+                        "state": "a"
+                      }
+                    ],
+                    "has_day": [
+                      "Thursday",
+                      "Monday",
+                      "Tuesday",
+                      "Saturday",
+                      "Friday",
+                      "Wednesday",
+                      "Sunday"
+                    ],
+                    "id": "schedule-0",
+                    "type": "Schedule",
+                    "label": "Основное расписание",
+                    "cas": "1526473762150744064",
+                    "class": "Schedule"
+                  }
+                ]
+              },
+              "unit_of": "office-1530720923888-7072",
+              "org_timezone": "Asia/Yekaterinburg",
+              "booking_methods": [],
+              "live_autopostpone": "120",
+              "live_autorestore": "300",
+              "live_autopostpone_count": "1",
+              "prebook_expiration_interval": "600",
+              "prebook_show_interval": "300",
+              "prebook_label_prefix": "П",
+              "prebook_observe_offset": "300",
+              "prebook_register_interval": "1",
+              "error_dialog_duration": "10",
+              "formatted_address": "Оренбург Раскова",
+              "mkgu_code": "9381",
+              "qa_enabled": true,
+              "auto_logout_time": "00:10",
+              "auto_warmup_time": "00:15",
+              "auto_expire_time": "23:00",
+              "workstation_resource_enabled": false,
+              "employee_resource_enabled": true,
+              "workstation_filtering_enabled": true,
+              "notification_levels": {
+                "max-waiting-time": [
+                  {
+                    "code": "high",
+                    "value": 3600,
+                    "dnd": 60,
+                    "message": "Красный уровень"
+                  },
+                  {
+                    "code": "normal",
+                    "value": 1800,
+                    "dnd": 60,
+                    "message": "Желтый уровень"
+                  },
+                  {
+                    "code": "low",
+                    "value": 900,
+                    "dnd": 60,
+                    "message": "Зеленый уровень"
+                  }
+                ]
+              },
+              "sound_theme": "smotrova",
+              "id": "department-1530720923888-7072",
+              "type": "Department",
+              "label": "МАУ МФЦ",
+              "class": "Organization"
+            },
+            "1": {
+              "has_unit": [
+                "department-1530720923888-7072"
+              ],
+              "id": "office-1530720923888-7072",
+              "type": "Office",
+              "class": "Organization",
+              "has_schedule": {}
+            }
+          },
+          "org_merged": {
+            "has_unit": [
+              "department-1530720923888-7072"
+            ],
+            "id": "department-1530720923888-7072",
+            "type": "Department",
+            "class": "Organization",
+            "has_schedule": {
+              "live": [
+                {
+                  "has_time_description": [
+                    {
+                      "data": [
+                        [
+                          0,
+                          83460
+                        ]
+                      ],
+                      "state": "a"
+                    }
+                  ],
+                  "has_day": [
+                    "Thursday",
+                    "Monday",
+                    "Tuesday",
+                    "Saturday",
+                    "Friday",
+                    "Wednesday",
+                    "Sunday"
+                  ],
+                  "id": "schedule-0",
+                  "type": "Schedule",
+                  "label": "Основное расписание",
+                  "cas": "1526473762150744064",
+                  "class": "Schedule"
+                }
+              ],
+              "prebook": [
+                {
+                  "has_time_description": [
+                    {
+                      "data": [
+                        [
+                          0,
+                          83460
+                        ]
+                      ],
+                      "state": "a"
+                    }
+                  ],
+                  "has_day": [
+                    "Thursday",
+                    "Monday",
+                    "Tuesday",
+                    "Saturday",
+                    "Friday",
+                    "Wednesday",
+                    "Sunday"
+                  ],
+                  "id": "schedule-0",
+                  "type": "Schedule",
+                  "label": "Основное расписание",
+                  "cas": "1526473762150744064",
+                  "class": "Schedule"
+                }
+              ]
+            },
+            "okato": "53401373000",
+            "pin_code_prefix": "252",
+            "unit_of": "office-1530720923888-7072",
+            "org_timezone": "Asia/Yekaterinburg",
+            "booking_methods": [],
+            "live_autopostpone": "120",
+            "live_autorestore": "300",
+            "live_autopostpone_count": "1",
+            "prebook_expiration_interval": "600",
+            "prebook_show_interval": "300",
+            "prebook_label_prefix": "П",
+            "prebook_observe_offset": "300",
+            "prebook_register_interval": "1",
+            "error_dialog_duration": "10",
+            "formatted_address": "Оренбург Раскова",
+            "mkgu_code": "9381",
+            "qa_enabled": true,
+            "auto_logout_time": "00:10",
+            "auto_warmup_time": "00:15",
+            "auto_expire_time": "23:00",
+            "workstation_resource_enabled": false,
+            "employee_resource_enabled": true,
+            "workstation_filtering_enabled": true,
+            "notification_levels": {
+              "max-waiting-time": [
+                {
+                  "code": "high",
+                  "value": 3600,
+                  "dnd": 60,
+                  "message": "Красный уровень"
+                },
+                {
+                  "code": "normal",
+                  "value": 1800,
+                  "dnd": 60,
+                  "message": "Желтый уровень"
+                },
+                {
+                  "code": "low",
+                  "value": 900,
+                  "dnd": 60,
+                  "message": "Зеленый уровень"
+                }
+              ]
+            },
+            "sound_theme": "smotrova",
+            "label": "МАУ МФЦ"
+          }
+        }
+      }
+    },
+    "completed": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "id": "task-425395-0",
+    "rev": "11-1540870ba3b300005b48f90802000000",
+    "expiration": 1531509000,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425395-0",
+    "@type": "Task",
+    "identifier": "workstation-add-task--auto-logout-all--department-1530720923888-7072",
+    "solo": true,
+    "cancellation_code": "department-1530720923888-7072",
+    "stime": 1531422600863,
+    "time": 50243,
+    "regular": false,
+    "task_name": "",
+    "module_name": "workstation",
+    "task_type": "add-task",
+    "params": {
+      "_action": "auto-logout-all",
+      "organization": "department-1530720923888-7072",
+      "org_addr": "office-1530720923888-7072.department-1530720923888-7072"
+    },
+    "completed": false
+  }
+}

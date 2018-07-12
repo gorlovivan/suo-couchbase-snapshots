@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "id": "task-425391-0",
+    "rev": "33-1540870ba5a000005b48cc7f02000000",
+    "expiration": 1531497599,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425391-0",
+    "@type": "Task",
+    "identifier": "queue-add-task--daily-expiration--department-1",
+    "solo": true,
+    "cancellation_code": "department-1",
+    "stime": 1531411199892,
+    "time": 38842,
+    "regular": false,
+    "task_name": "",
+    "module_name": "queue",
+    "task_type": "add-task",
+    "params": {
+      "_action": "daily-expiration",
+      "organization": "department-1"
+    },
+    "completed": false
+  }
+}

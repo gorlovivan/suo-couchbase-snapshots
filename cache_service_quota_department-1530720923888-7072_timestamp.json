@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "cache_service_quota_department-1530720923888-7072_timestamp",
+    "rev": "27-1540871ca41200000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "cache_service_quota_department-1530720923888-7072_timestamp",
+    "@category": "serviceQuota",
+    "@type": "Cache",
+    "content": 1531372430386
+  }
+}

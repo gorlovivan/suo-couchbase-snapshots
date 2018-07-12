@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "id": "task-425393-0",
+    "rev": "11-1540870ba3b000005b48dce802000000",
+    "expiration": 1531501800,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425393-0",
+    "@type": "Task",
+    "identifier": "workstation-add-task--auto-logout-all--office-1",
+    "solo": true,
+    "cancellation_code": "office-1",
+    "stime": 1531415400858,
+    "time": 43043,
+    "regular": false,
+    "task_name": "",
+    "module_name": "workstation",
+    "task_type": "add-task",
+    "params": {
+      "_action": "auto-logout-all",
+      "organization": "office-1",
+      "org_addr": "office-1"
+    },
+    "completed": false
+  }
+}

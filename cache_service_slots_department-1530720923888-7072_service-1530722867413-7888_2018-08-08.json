@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "cache_service_slots_department-1530720923888-7072_service-1530722867413-7888_2018-08-08",
+    "rev": "14-1540871ca39c00005b6bcd8d02000000",
+    "expiration": 1533791629,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "cache_service_slots_department-1530720923888-7072_service-1530722867413-7888_2018-08-08",
+    "@category": "serviceSlots",
+    "@type": "Cache",
+    "content": []
+  }
+}

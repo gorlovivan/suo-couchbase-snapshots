@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "lookup_task_queue-add-task--daily-expiration--department-1530720923888-7072",
+    "rev": "30-1540870ba7b900005b48e89f02000000",
+    "expiration": 1531504799,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "lookup_task_queue-add-task--daily-expiration--department-1530720923888-7072",
+    "@category": "Task",
+    "@type": "Lookup",
+    "content": "task-425393-2"
+  }
+}
