@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "id": "digital-display-1",
+    "rev": "2-152f20cfe52800000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "default_agent": "megatron-4",
+    "attached_to": "department-1",
+    "device_type": "digital-display",
+    "occupied_by": [
+      "megatron-4"
+    ],
+    "maintains": {
+      "pc-1": "10"
+    },
+    "display_type": "SvetovodMatrix",
+    "symbol_depth": 4,
+    "y_offset": "0",
+    "x_offset": 0,
+    "height": 9,
+    "width": 24,
+    "baud_rate": "1152001111111111111111",
+    "data_bits": 8,
+    "parity": "none",
+    "stop_bits": 1,
+    "@id": "digital-display-1",
+    "@type": "DigitalDisplay",
+    "label": "Электронное табло 1"
+  }
+}

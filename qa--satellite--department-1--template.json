@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "qa--satellite--department-1--template",
+    "rev": "2-152f20e67aeb00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "qa--satellite--department-1--template",
+    "@type": "Qa",
+    "label": "QaMobile 1",
+    "default_agent": "megatron-3",
+    "attached_to": "department-1",
+    "device_type": "qa",
+    "hold_screen_design": "/production/qa/design/landing1.html"
+  }
+}

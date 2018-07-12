@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "human-2",
+    "rev": "2-152f21c7917700000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "first_name": "Admin",
+    "last_name": "Admin",
+    "middle_name": "Admin",
+    "login": "test",
+    "password_hash": "test",
+    "provides": [],
+    "has_schedule": {
+      "resource": [],
+      "live": [],
+      "prebook": []
+    },
+    "permissions": {
+      "ticket-by-id": {
+        "registered": false,
+        "postponed": false
+      },
+      "can-admin": {
+        "department-1": true,
+        "office-1": true
+      },
+      "superadmin": true
+    },
+    "state": "inactive",
+    "available_workstation": [],
+    "@id": "human-2",
+    "@type": "Employee",
+    "default_workstation": []
+  }
+}

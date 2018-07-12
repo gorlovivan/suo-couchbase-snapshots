@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "id": "user_info_fields",
+    "rev": "2-152f1eb5a3c600000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "user_info_fields",
+    "@type": "Config",
+    "content": {
+      "service_count_prebook": {
+        "order": 0,
+        "key": "service_count",
+        "type": "input-number",
+        "layout": "numeric",
+        "description": "Введите количество дел",
+        "required": true,
+        "method": "prebook"
+      },
+      "service_count": {
+        "order": 0,
+        "type": "input-number",
+        "layout": "numeric",
+        "description": "Введите количество дел",
+        "required": true,
+        "method": "live",
+        "validate": "checkAvailability"
+      },
+      "dedicated_date": {
+        "order": 1,
+        "type": "date-picker",
+        "description": "Выберите дату и время обслуживания",
+        "method": "prebook",
+        "required": true
+      },
+      "fio": {
+        "order": 1,
+        "type": "input",
+        "description": "Введите вашу фамилию, имя и отчество",
+        "required": true,
+        "include": false
+      }
+    }
+  }
+}

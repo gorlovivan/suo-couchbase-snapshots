@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "id": "pc-registry",
+    "rev": "2-152f21eb763e00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "attached_terminal": [
+      "call-terminal-1",
+      "term-1"
+    ],
+    "occupied_by": [],
+    "default_agent": "megatron-1",
+    "attached_to": "department-1",
+    "device_type": "registry",
+    "state": "inactive",
+    "@id": "pc-registry",
+    "@type": "Workstation",
+    "label": "Запись ЖО"
+  }
+}

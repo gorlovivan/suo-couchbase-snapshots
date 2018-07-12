@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "schedule-0",
+    "rev": "2-152f1fcc8ff300000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "schedule-0",
+    "@type": "Schedule",
+    "has_day": [
+      "Thursday",
+      "Monday",
+      "Tuesday",
+      "Saturday",
+      "Friday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "has_time_description": {
+      "data": [
+        [
+          0,
+          83460
+        ]
+      ],
+      "state": "a"
+    },
+    "label": "Основное расписание"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "id": "service-1",
+    "rev": "2-152f1ff15edb00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "service-1",
+    "@type": "Service",
+    "code_frgu": "0",
+    "dept_code_frgu": "0",
+    "prebook_offset": 0,
+    "has_schedule": {
+      "live": [
+        "schedule-0"
+      ],
+      "prebook": [
+        "schedule-0"
+      ]
+    },
+    "live_operation_time": 900,
+    "ordering": 1,
+    "prebook_interval": 30,
+    "prebook_operation_time": 900,
+    "prebook_percentage": 100,
+    "prebook_today_percentage": 0,
+    "priority": 0,
+    "prefix": "Б",
+    "service_code_epgu": "0",
+    "label": "Базовая услуга 1",
+    "short_label": "Базовая услуга",
+    "custom_fields": {
+      "undefined": true
+    },
+    "linked_to": [
+      "department-1"
+    ]
+  }
+}

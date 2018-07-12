@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "id": "web-terminal-1",
+    "rev": "2-152f228615e400000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "default_agent": "megatron-6",
+    "attached_to": "department-1",
+    "device_type": "terminal",
+    "bound_service_groups": "wsg-1",
+    "occupied_by": [
+      "megatron-6"
+    ],
+    "@id": "web-terminal-1",
+    "@type": "Terminal",
+    "label": "Базовый офис",
+    "__hidden_type": "megatron-6",
+    "custom_fields": {
+      "0000000005_key": true
+    },
+    "booking_methods": [
+      "live",
+      "prebook"
+    ],
+    "attached_terminal": []
+  }
+}

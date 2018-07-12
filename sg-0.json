@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "id": "sg-0",
+    "rev": "3-152f20476bb800000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "sg-0",
+    "@type": "ServiceGroup",
+    "items_per_page": "12",
+    "content": [
+      "service-1"
+    ],
+    "label": "Базовая",
+    "view_order": "0",
+    "view_name": "base"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "id": "wsg-1",
+    "rev": "2-152f2138de5500000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "wsg-1",
+    "@type": "ServiceGroup",
+    "items_per_page": "12",
+    "content": [
+      "service-1"
+    ],
+    "label": "Запись ПЗ 1",
+    "view_name": "base"
+  }
+}

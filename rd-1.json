@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "id": "rd-1",
+    "rev": "2-152f1f6d9fce00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "default_agent": "megatron-2",
+    "attached_to": "department-1",
+    "device_type": "roomdisplay",
+    "occupied_by": [
+      "megatron-2"
+    ],
+    "pop_on_arrival": false,
+    "default_voice_duration": 15000,
+    "display_design": "/production/room/design/default.html",
+    "history_enabled": false,
+    "@id": "rd-1",
+    "@type": "Roomdisplay",
+    "label": "Табло 1"
+  }
+}

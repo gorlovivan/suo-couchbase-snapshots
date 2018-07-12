@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "id": "schedule-1",
+    "rev": "2-152f1fd5781e00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "schedule-1",
+    "@type": "Schedule",
+    "has_day": [
+      "Friday",
+      "Thursday",
+      "Wednesday",
+      "Tuesday",
+      "Monday"
+    ],
+    "has_time_description": {
+      "data": [
+        [
+          10860,
+          82800
+        ]
+      ],
+      "state": "a"
+    },
+    "label": "Расписание 1"
+  }
+}

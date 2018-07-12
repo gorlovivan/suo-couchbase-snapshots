@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "operator-display--satellite--department-1--template",
+    "rev": "2-152f229f3ac700000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "operator-display--satellite--department-1--template",
+    "@type": "OperatorDisplay",
+    "label": "OperatorDisplay 1",
+    "default_agent": "megatron-7",
+    "attached_to": "department-1",
+    "device_type": "operator-display",
+    "hold_screen_design": "/production/operator-display/design/landing.html"
+  }
+}

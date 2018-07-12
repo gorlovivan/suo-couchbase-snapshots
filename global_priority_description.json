@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "global_priority_description",
+    "rev": "2-152f1e383bf700000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "global_priority_description",
+    "@type": "Description",
+    "content": {
+      "veteran3": {
+        "label": "Ветеран ВОВ",
+        "description": "Ветеран ВОВ",
+        "params": {
+          "prefix": "В",
+          "value": "3"
+        },
+        "__index": "veteran"
+      },
+      "invalid": {
+        "label": "Инвалид 1,2,3 группы",
+        "description": "Инвалид 1,2,3 группы",
+        "params": {
+          "prefix": "И",
+          "value": "4"
+        },
+        "__index": "invalid"
+      },
+      "pensioner": {
+        "label": "Пенсионеры",
+        "description": "Пенсионеры",
+        "params": {
+          "prefix": "П",
+          "value": 1
+        },
+        "__index": "pensioner"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "meta": {
+    "id": "service-department-1-1",
+    "rev": "2-152f2015432800000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "service-department-1-1",
+    "@type": "Service",
+    "prefix": "ПФ"
+  }
+}

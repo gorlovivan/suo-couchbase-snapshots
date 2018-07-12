@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "id": "megatron-7",
+    "rev": "2-152f1f17ca6300000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "megatron-7",
+    "@type": "SystemEntity",
+    "login": "operator-display",
+    "password_hash": "1",
+    "state": "inactive"
+  }
+}

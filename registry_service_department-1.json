@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "registry_service_department-1",
+    "rev": "2-152f22af70d400000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "registry_service_department-1",
+    "@type": "Registry",
+    "@content_type": "Service",
+    "content": [
+      "service-1"
+    ]
+  }
+}

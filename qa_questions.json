@@ -1,0 +1,274 @@
+{
+  "meta": {
+    "id": "qa_questions",
+    "rev": "2-152f20fb596b00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "qa_questions",
+    "@type": "Info",
+    "content": [
+      {
+        "@id": "question-1",
+        "@type": "Info",
+        "label": "Q1",
+        "order": 0,
+        "icon": false,
+        "code": "9",
+        "description": "Время предоставления государственной услуги",
+        "selected": "excellent",
+        "answers": [
+          {
+            "@id": "answer-1-1",
+            "@type": "Info",
+            "code": "41",
+            "label": "Очень плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-1-2",
+            "@type": "Info",
+            "code": "42",
+            "label": "Плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-1-3",
+            "@type": "Info",
+            "code": "43",
+            "label": "Нормально",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-1-4",
+            "@type": "Info",
+            "code": "44",
+            "label": "Хорошо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-1-5",
+            "@type": "Info",
+            "code": "45",
+            "label": "Отлично",
+            "description": "",
+            "icon": false
+          }
+        ]
+      },
+      {
+        "@id": "question-2",
+        "@type": "Info",
+        "label": "Q2",
+        "order": 0,
+        "icon": false,
+        "code": "10",
+        "description": "Время ожидания в очереди при получении государственной услуги",
+        "selected": "excellent",
+        "answers": [
+          {
+            "@id": "answer-2-1",
+            "@type": "Info",
+            "code": "46",
+            "label": "Очень плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-2-2",
+            "@type": "Info",
+            "code": "47",
+            "label": "Плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-2-3",
+            "@type": "Info",
+            "code": "48",
+            "label": "Нормально",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-2-4",
+            "@type": "Info",
+            "code": "49",
+            "label": "Хорошо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-2-5",
+            "@type": "Info",
+            "code": "50",
+            "label": "Отлично",
+            "description": "",
+            "icon": false
+          }
+        ]
+      },
+      {
+        "@id": "question-3",
+        "@type": "Info",
+        "label": "Q3",
+        "order": 0,
+        "icon": false,
+        "code": "11",
+        "description": "Вежливость и компетенция сотрудника, взаимодействующего с заявителем при предоставлении государственной услуги",
+        "selected": "excellent",
+        "answers": [
+          {
+            "@id": "answer-3-1",
+            "@type": "Info",
+            "code": "51",
+            "label": "Очень плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-3-2",
+            "@type": "Info",
+            "code": "52",
+            "label": "Плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-3-3",
+            "@type": "Info",
+            "code": "53",
+            "label": "Нормально",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-3-4",
+            "@type": "Info",
+            "code": "54",
+            "label": "Хорошо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-3-5",
+            "@type": "Info",
+            "code": "55",
+            "label": "Отлично",
+            "description": "",
+            "icon": false
+          }
+        ]
+      },
+      {
+        "@id": "question-4",
+        "@type": "Info",
+        "label": "Q4",
+        "order": 0,
+        "icon": false,
+        "code": "12",
+        "description": "Комфортность условий в помещении, в котором предоставлена государственная услуга",
+        "selected": "excellent",
+        "answers": [
+          {
+            "@id": "answer-4-1",
+            "@type": "Info",
+            "code": "56",
+            "label": "Очень плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-4-2",
+            "@type": "Info",
+            "code": "57",
+            "label": "Плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-4-3",
+            "@type": "Info",
+            "code": "58",
+            "label": "Нормально",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-4-4",
+            "@type": "Info",
+            "code": "59",
+            "label": "Хорошо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-4-5",
+            "@type": "Info",
+            "code": "60",
+            "label": "Отлично",
+            "description": "",
+            "icon": false
+          }
+        ]
+      },
+      {
+        "@id": "question-5",
+        "@type": "Info",
+        "label": "Q5",
+        "order": 0,
+        "icon": false,
+        "code": "13",
+        "description": "Доступность информации о порядке предоставления государственной услуги",
+        "selected": "excellent",
+        "answers": [
+          {
+            "@id": "answer-5-1",
+            "@type": "Info",
+            "code": "61",
+            "label": "Очень плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-5-2",
+            "@type": "Info",
+            "code": "62",
+            "label": "Плохо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-5-3",
+            "@type": "Info",
+            "code": "63",
+            "label": "Нормально",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-5-4",
+            "@type": "Info",
+            "code": "64",
+            "label": "Хорошо",
+            "description": "",
+            "icon": false
+          },
+          {
+            "@id": "answer-5-5",
+            "@type": "Info",
+            "code": "65",
+            "label": "Отлично",
+            "description": "",
+            "icon": false
+          }
+        ]
+      }
+    ]
+  }
+}

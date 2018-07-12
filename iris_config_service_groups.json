@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "id": "iris_config_service_groups",
+    "rev": "2-152f1dcab1cd00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "iris_config_service_groups",
+    "@type": "Config",
+    "main_group": {
+      "auth": {
+        "path": "./BaseServices/Auth"
+      },
+      "doctor": {
+        "path": "./BaseServices/Physician",
+        "params": {
+          "desription": "temp config for network physician",
+          "inspectors": []
+        }
+      },
+      "taskrunner": {
+        "path": "./BaseServices/Taskrunner",
+        "params": {
+          "key": "task",
+          "interval": 60,
+          "ahead_delta": 500,
+          "immediate_delta": 500,
+          "remove_on_completion": true,
+          "task_expiration": 86400
+        }
+      },
+      "message-hub": {
+        "path": "iris-service-messagehub",
+        "params": {
+          "default_options": {
+            "websocket": {
+              "port": 3001
+            },
+            "http": {
+              "port": 8081
+            },
+            "https": {
+              "port": 443
+            }
+          },
+          "connectors": {
+            "http": {
+              "9003": {
+                "SocketAPI": {
+                  "model": "websocket",
+                  "options": {}
+                },
+                "RESTAPI": {
+                  "model": "http-rest",
+                  "options": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      "agent": {
+        "path": "iris-service-agent",
+        "params": {}
+      },
+      "mkgu": {
+        "path": "iris-service-mkgu",
+        "params": {
+          "certificate_pub": "/keys/cert.pem",
+          "certificate_priv": "/keys/key.pem"
+        }
+      },
+      "workstation": {
+        "path": "iris-service-workstation",
+        "params": {}
+      },
+      "ticket": {
+        "path": "iris-service-ticket",
+        "params": {}
+      },
+      "history": {
+        "path": "iris-service-history",
+        "params": {}
+      },
+      "qa": {
+        "path": "iris-service-qa",
+        "params": {}
+      },
+      "digital-display": {
+        "path": "iris-service-digital-display",
+        "params": {}
+      },
+      "queue": {
+        "path": "iris-service-queue",
+        "params": {}
+      },
+      "terminal": {
+        "path": "iris-service-terminal",
+        "params": {}
+      },
+      "control-panel": {
+        "path": "iris-service-control-panel",
+        "params": {}
+      },
+      "prebook": {
+        "path": "iris-service-prebook",
+        "params": {
+          "prebook_check_interval": 60,
+          "warmup_throttle_hours": 23
+        }
+      },
+      "roomdisplay": {
+        "path": "iris-service-roomdisplay",
+        "params": {
+          "theme_params": {
+            "extension": ".mp3"
+          },
+          "sound_theme": "smotrova",
+          "direction_types": {
+            "okno": "окно",
+            "kabinet": "кабинет",
+            "kassa": "касса",
+            "vokno": "пройдитевокно",
+            "vkabinet": "пройдитевкабинет",
+            "vkassu": "пройдитевкассу"
+          }
+        }
+      },
+      "administrator": {
+        "path": "iris-service-administrator",
+        "params": {}
+      },
+      "pandora-box": {
+        "path": "iris-service-pandora-box",
+        "params": {}
+      },
+      "code-registry": {
+        "path": "iris-service-code-registry",
+        "params": {}
+      },
+      "shared-entities": {
+        "path": "iris-service-shared-entities",
+        "params": {}
+      },
+      "sound-conjunct": {
+        "path": "iris-service-sound-conjunct",
+        "params": {
+          "sound_params": {},
+          "output_directory": "/var/www/html/production/room/sound"
+        }
+      },
+      "sample-service": {
+        "path": "./BaseServices/SampleService",
+        "params": {
+          "param1": 1,
+          "param2": 2
+        }
+      },
+      "replicator": {
+        "path": "iris-service-replicator",
+        "params": {}
+      },
+      "reports": {
+        "path": "iris-service-reports",
+        "params": {
+          "default_bucket": "rdf-base"
+        }
+      },
+      "reception": {
+        "path": "iris-service-reception",
+        "params": {}
+      },
+      "database": {
+        "path": "iris-service-database",
+        "params": {
+          "default_bucket": "rdf-base"
+        }
+      },
+      "system-entities": {
+        "path": "iris-service-system-entities",
+        "params": {}
+      },
+      "office": {
+        "path": "iris-service-office",
+        "params": {}
+      },
+      "ticket-index": {
+        "path": "iris-service-ticket-index",
+        "params": {
+          "queue_head_size": 10,
+          "queue_head_interval": 10000,
+          "queue_head_throttle": 1000
+        }
+      },
+      "call-center": {
+        "path": "iris-service-call-center",
+        "params": {}
+      },
+      "operator-display": {
+        "path": "iris-service-operator-display",
+        "params": {}
+      }
+    },
+    "spawn_limit": 10
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "megatron-4",
+    "rev": "2-152f1ef4ac3200000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "login": "dd",
+    "password_hash": "1",
+    "state": "active",
+    "default_workstation": "digital-display-1",
+    "available_workstation": [],
+    "@id": "megatron-4",
+    "@type": "SystemEntity"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "id": "pc-1",
+    "rev": "2-152f205aeff900000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "pc-1",
+    "@type": "Workstation",
+    "label": "Окно 1",
+    "short_label": "1",
+    "provides": [
+      "service-1"
+    ],
+    "occupied_by": [],
+    "state": "inactive",
+    "attached_to": "department-1",
+    "device_type": "control-panel"
+  }
+}

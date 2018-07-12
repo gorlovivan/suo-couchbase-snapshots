@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "id": "global_membership_description",
+    "rev": "4-152f2209696300000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "global_membership_description",
+    "@type": "Description",
+    "content": [
+      {
+        "@id": "membership-1",
+        "@type": "Membership",
+        "member": "megatron-1",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-2",
+        "@type": "Membership",
+        "member": "megatron-2",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-3",
+        "@type": "Membership",
+        "member": "megatron-3",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-4",
+        "@type": "Membership",
+        "member": "megatron-4",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-5",
+        "@type": "Membership",
+        "member": "megatron-5",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-6",
+        "@type": "Membership",
+        "member": "megatron-6",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-7",
+        "@type": "Membership",
+        "member": "megatron-7",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-8",
+        "@type": "Membership",
+        "member": "human-1",
+        "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-9",
+        "@type": "Membership",
+        "member": "human-2",
+        "organization": "department-1",
+        "role": "Operator"
+      }
+    ]
+  }
+}

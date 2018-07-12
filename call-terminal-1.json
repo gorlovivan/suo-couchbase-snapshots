@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "id": "call-terminal-1",
+    "rev": "3-152f2191a1c700000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "multiselect": false,
+    "default_agent": "megatron-1",
+    "attached_to": "department-1",
+    "device_type": "terminal",
+    "bound_service_groups": "wsg-1",
+    "occupied_by": [
+      "human-1"
+    ],
+    "prebook_autoregister": false,
+    "booking_methods": [
+      "live",
+      "prebook"
+    ],
+    "reload_interval": 5,
+    "ticket_design": "default",
+    "custom_fields": {
+      "fio": true,
+      "phone": true
+    },
+    "@id": "call-terminal-1",
+    "@type": "Terminal",
+    "label": "Базовый офис",
+    "__hidden_type": "pc-call-center"
+  }
+}

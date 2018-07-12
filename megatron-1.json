@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "id": "megatron-1",
+    "rev": "2-152f1edd601e00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "login": "megatron",
+    "password_hash": "1",
+    "state": "active",
+    "default_workstation": "term-1",
+    "available_workstation": [
+      "term-1"
+    ],
+    "@id": "megatron-1",
+    "@type": "SystemEntity"
+  }
+}

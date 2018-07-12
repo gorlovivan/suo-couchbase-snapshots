@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "id": "megatron-5",
+    "rev": "2-152f1f02b88900000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "login": "adm",
+    "password_hash": "1",
+    "permissions": {
+      "can-edit": {
+        "department-1": true
+      }
+    },
+    "state": "inactive",
+    "default_workstation": [
+      "admin-panel-1"
+    ],
+    "available_workstation": [
+      "admin-panel-1"
+    ],
+    "@id": "megatron-5",
+    "@type": "SystemEntity"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "id": "global_agent_permissions",
+    "rev": "2-152f1e6145d800000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "global_agent_permissions",
+    "@type": "Description",
+    "content": {
+      "ticket-by-id": {
+        "label": "",
+        "description": "",
+        "params": {
+          "registered": false,
+          "postponed": true
+        }
+      },
+      "can-report": {
+        "label": "",
+        "description": "",
+        "params": {
+          "department-1": false
+        }
+      },
+      "can-manage": {
+        "label": "",
+        "description": "",
+        "params": {
+          "department-1": false
+        }
+      },
+      "can-book": {
+        "label": "",
+        "description": "",
+        "params": {
+          "department-1": false
+        }
+      }
+    }
+  }
+}

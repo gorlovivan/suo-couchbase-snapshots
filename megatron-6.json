@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "megatron-6",
+    "rev": "2-152f1f11b4b600000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "login": "webwidget",
+    "password_hash": "1",
+    "state": "active",
+    "available_workstation": [],
+    "@id": "megatron-6",
+    "@type": "SystemEntity"
+  }
+}

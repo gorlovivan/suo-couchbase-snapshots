@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "human-1",
+    "rev": "3-152f219ec0cf00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "first_name": "Имя",
+    "last_name": "Фамилия",
+    "middle_name": "Отчество",
+    "login": "login",
+    "password_hash": "password",
+    "provides": [],
+    "permissions": {
+      "ticket-by-id": {
+        "registered": false,
+        "postponed": true
+      }
+    },
+    "state": "inactive",
+    "available_workstation": [
+      "pc-1",
+      "pc-reception",
+      "pc-reports",
+      "pc-call-center"
+    ],
+    "@id": "human-1",
+    "@type": "Employee"
+  }
+}

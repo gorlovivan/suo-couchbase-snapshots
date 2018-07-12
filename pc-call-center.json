@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "id": "pc-call-center",
+    "rev": "2-152f214b5ba800000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "attached_terminal": [
+      "call-terminal-1",
+      "terminal-1"
+    ],
+    "occupied_by": [],
+    "default_agent": "megatron-1",
+    "attached_to": "department-1",
+    "device_type": "call-center",
+    "state": "inactive",
+    "@id": "pc-call-center",
+    "@type": "Workstation",
+    "label": "Запись ПЗ"
+  }
+}

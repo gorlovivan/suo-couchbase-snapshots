@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "id": "registry_workstation_department-1",
+    "rev": "2-152f22d7bd0f00000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "registry_workstation_department-1",
+    "@type": "Registry",
+    "@content_type": "Workstation",
+    "content": {
+      "terminal": [
+        "terminal-1"
+      ],
+      "roomdisplay": [
+        "rd-1"
+      ],
+      "digital-display": [
+        "digital-display-1"
+      ],
+      "call-center": [],
+      "reception": [
+        "pc-reception"
+      ],
+      "reports": [
+        "pc-reports"
+      ],
+      "registry": [],
+      "control-panel": [
+        "pc-1"
+      ]
+    }
+  }
+}

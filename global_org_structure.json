@@ -1,0 +1,100 @@
+{
+  "meta": {
+    "id": "global_org_structure",
+    "rev": "2-152f1e14815400000000000000000000",
+    "expiration": 0,
+    "flags": 0
+  },
+  "json": {
+    "@id": "global_org_structure",
+    "@type": "Description",
+    "content": [
+      {
+        "@id": "office-1",
+        "@type": "Office",
+        "has_unit": [
+          "department-1"
+        ],
+        "label": "Базовый офис",
+        "formatted_address": "Адрес офиса",
+        "org_timezone": "Asia/Krasnoyarsk",
+        "booking_methods": [
+          "live",
+          "prebook"
+        ],
+        "pin_code_prefix": "001",
+        "prebook_expiration_interval": 600,
+        "prebook_label_prefix": "П",
+        "prebook_slot_uniq_interval": 300,
+        "prebook_observe_offset": 300,
+        "prebook_observe_max_slots": 100,
+        "prebook_show_interval": 300,
+        "prebook_register_interval": 1,
+        "live_autorestore": 300,
+        "live_autopostpone": 120,
+        "live_autopostpone_count": 1,
+        "error_dialog_duration": 10,
+        "mkgu_code": "4722",
+        "qa_enabled": true,
+        "okato": "69401372000",
+        "auto_logout_time": "00:10",
+        "auto_warmup_time": "00:15",
+        "auto_expire_time": "23:00",
+        "logs": {
+          "mkgu": true
+        },
+        "sound_theme": "smotrova",
+        "notification_levels": {
+          "max-waiting-time": [
+            {
+              "code": "high",
+              "value": 1800,
+              "dnd": 60,
+              "message": "Красный уровень"
+            },
+            {
+              "code": "normal",
+              "value": 1200,
+              "dnd": 60,
+              "message": "Желтый уровень"
+            },
+            {
+              "code": "low",
+              "value": 900,
+              "dnd": 60,
+              "message": "Зеленый уровень"
+            }
+          ]
+        },
+        "workstation_filtering_enabled": true,
+        "employee_filtering_enabled": false,
+        "workstation_resource_enabled": true,
+        "employee_resource_enabled": false
+      },
+      {
+        "@id": "department-1",
+        "@type": "Department",
+        "unit_of": "office-1",
+        "has_schedule": {
+          "live": [
+            "schedule-0"
+          ],
+          "prebook": [
+            "schedule-0"
+          ]
+        },
+        "label": "базовый офис",
+        "pin_code_prefix": "001",
+        "formatted_address": "Адрес офиса",
+        "priority_description": {
+          "veteran": {
+            "value": 1
+          },
+          "invalid": {
+            "value": 1
+          }
+        }
+      }
+    ]
+  }
+}
