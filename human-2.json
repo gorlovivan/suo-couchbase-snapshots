@@ -1,16 +1,16 @@
 {
   "meta": {
     "id": "human-2",
-    "rev": "2-152f21c7917700000000000000000000",
+    "rev": "4-153e3717f81700000000000002000000",
     "expiration": 0,
-    "flags": 0
+    "flags": 33554432
   },
   "json": {
     "first_name": "Admin",
     "last_name": "Admin",
     "middle_name": "Admin",
-    "login": "test",
-    "password_hash": "test",
+    "login": "Admin_oren",
+    "password_hash": "11VB45",
     "provides": [],
     "has_schedule": {
       "resource": [],
@@ -24,7 +24,9 @@
       },
       "can-admin": {
         "department-1": true,
-        "office-1": true
+        "office-1": true,
+        "department-1530720923888-7072": true,
+        "office-1530720923888-7072": true
       },
       "superadmin": true
     },

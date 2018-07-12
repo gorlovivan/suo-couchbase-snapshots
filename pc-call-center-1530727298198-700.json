@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "id": "pc-call-center-1530727298198-700",
+    "rev": "2-153e3c6a97e400000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "attached_terminal": [],
+    "occupied_by": [],
+    "default_agent": "megatron-1",
+    "attached_to": "department-1",
+    "device_type": "call-center",
+    "state": "inactive",
+    "@id": "pc-call-center-1530727298198-700",
+    "@type": "Workstation",
+    "label": "Тестовое служебное ПЗ"
+  }
+}

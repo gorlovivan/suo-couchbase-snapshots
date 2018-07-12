@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "operator-display--satellite--department-1530720923888-7072--template",
+    "rev": "4-153e3882da5e00000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "operator-display--satellite--department-1530720923888-7072--template",
+    "@type": "OperatorDisplay",
+    "label": "OperatorDisplay для department-1530720923888-7072",
+    "default_agent": "operator-display",
+    "attached_to": "department-1530720923888-7072",
+    "device_type": "operator-display",
+    "hold_screen_design": "/production/operator-display/design/landing.html"
+  }
+}

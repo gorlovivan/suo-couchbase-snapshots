@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "cache_active_agents",
+    "rev": "47-15408264668200000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "cache_active_agents",
+    "@category": "activeAgents",
+    "@type": "Cache",
+    "content": {
+      "SystemEntity": {
+        "active": [
+          "megatron-1",
+          "megatron-2",
+          "megatron-3",
+          "megatron-4",
+          "megatron-6"
+        ]
+      }
+    }
+  }
+}

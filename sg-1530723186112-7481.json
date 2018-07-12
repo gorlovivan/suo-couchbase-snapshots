@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id": "sg-1530723186112-7481",
+    "rev": "2-153e38b8ecac00000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "sg-1530723186112-7481",
+    "@type": "ServiceGroup",
+    "items_per_page": "12",
+    "content": [],
+    "label": "Тестовая Корневая Группа",
+    "view_name": "base"
+  }
+}

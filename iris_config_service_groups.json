@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "iris_config_service_groups",
-    "rev": "2-152f1dcab1cd00000000000000000000",
+    "rev": "4-153df206933300000000000000000000",
     "expiration": 0,
     "flags": 0
   },
@@ -46,7 +46,7 @@
           },
           "connectors": {
             "http": {
-              "9003": {
+              "9000": {
                 "SocketAPI": {
                   "model": "websocket",
                   "options": {}
@@ -164,7 +164,7 @@
       "reports": {
         "path": "iris-service-reports",
         "params": {
-          "default_bucket": "rdf-base"
+          "default_bucket": "rdf"
         }
       },
       "reception": {
@@ -174,7 +174,7 @@
       "database": {
         "path": "iris-service-database",
         "params": {
-          "default_bucket": "rdf-base"
+          "default_bucket": "rdf"
         }
       },
       "system-entities": {

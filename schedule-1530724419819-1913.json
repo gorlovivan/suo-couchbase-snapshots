@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "schedule-1530724419819-1913",
+    "rev": "2-153e3b655af900000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "schedule-1530724419819-1913",
+    "@type": "Schedule",
+    "label": "Стандартное тестовое расширенное",
+    "has_day": [
+      "Thursday",
+      "Monday",
+      "Tuesday",
+      "Saturday",
+      "Friday",
+      "Wednesday",
+      "Sunday"
+    ],
+    "has_time_description": {
+      "data": [
+        [
+          0,
+          86340
+        ]
+      ],
+      "state": "a"
+    }
+  }
+}

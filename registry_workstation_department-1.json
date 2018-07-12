@@ -1,9 +1,9 @@
 {
   "meta": {
     "id": "registry_workstation_department-1",
-    "rev": "2-152f22d7bd0f00000000000000000000",
+    "rev": "8-153e3c6d110600000000000002000000",
     "expiration": 0,
-    "flags": 0
+    "flags": 33554432
   },
   "json": {
     "@id": "registry_workstation_department-1",
@@ -19,14 +19,18 @@
       "digital-display": [
         "digital-display-1"
       ],
-      "call-center": [],
+      "call-center": [
+        "pc-call-center-1530727298198-700"
+      ],
       "reception": [
         "pc-reception"
       ],
       "reports": [
         "pc-reports"
       ],
-      "registry": [],
+      "registry": [
+        "pc-registry-1530727354701-3564"
+      ],
       "control-panel": [
         "pc-1"
       ]

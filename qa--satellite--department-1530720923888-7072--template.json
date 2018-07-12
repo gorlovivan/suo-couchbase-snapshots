@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "id": "qa--satellite--department-1530720923888-7072--template",
+    "rev": "4-153e3882da5d00000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "qa--satellite--department-1530720923888-7072--template",
+    "@type": "Qa",
+    "label": "Qa для department-1530720923888-7072",
+    "default_agent": "megatron-3",
+    "attached_to": "department-1530720923888-7072",
+    "device_type": "qa",
+    "hold_screen_design": "/images/qa/landing.html"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "meta": {
     "id": "megatron-2",
-    "rev": "2-152f1ee6c45600000000000000000000",
+    "rev": "4-153e3acbe5f400000000000002000000",
     "expiration": 0,
-    "flags": 0
+    "flags": 33554432
   },
   "json": {
     "login": "rd",
@@ -11,7 +11,8 @@
     "state": "active",
     "default_workstation": "rd-1",
     "available_workstation": [
-      "rd-1"
+      "rd-1",
+      "rd-orenburg1-1"
     ],
     "@id": "megatron-2",
     "@type": "SystemEntity"

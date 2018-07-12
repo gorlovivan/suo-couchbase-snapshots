@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "id": "terminal-orenburg1-1",
+    "rev": "1-153e399c66d600000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "multiselect": false,
+    "default_agent": "megatron-1",
+    "attached_to": "department-1530720923888-7072",
+    "device_type": "terminal",
+    "bound_service_groups": "sg-1530723515411-5641",
+    "__hidden_type": "megatron-1",
+    "occupied_by": [],
+    "prebook_autoregister": false,
+    "booking_methods": [
+      "live",
+      "prebook"
+    ],
+    "reload_interval": 5,
+    "@id": "terminal-orenburg1-1",
+    "@type": "Terminal",
+    "label": "Тестовый терминал",
+    "custom_fields": {
+      "service_count_prebook": true,
+      "service_count": true
+    }
+  }
+}

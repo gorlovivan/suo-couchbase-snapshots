@@ -1,9 +1,9 @@
 {
   "meta": {
     "id": "global_membership_description",
-    "rev": "4-152f2209696300000000000000000000",
+    "rev": "11-153e3c377e8800000000000002000000",
     "expiration": 0,
-    "flags": 0
+    "flags": 33554432
   },
   "json": {
     "@id": "global_membership_description",
@@ -70,6 +70,13 @@
         "@type": "Membership",
         "member": "human-2",
         "organization": "department-1",
+        "role": "Operator"
+      },
+      {
+        "@id": "membership-aa0a74e0-7faa-11e8-97f2-df3bc1a8b781",
+        "@type": "Membership",
+        "member": "human-1530720777456-8098",
+        "organization": "department-1530720923888-7072",
         "role": "Operator"
       }
     ]

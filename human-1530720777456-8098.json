@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "id": "human-1530720777456-8098",
+    "rev": "14-153e6f765b4d00000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "first_name": "Георгий",
+    "last_name": "Пехтерев",
+    "middle_name": "Олегович",
+    "login": "gop",
+    "password_hash": "1",
+    "provides": [
+      "service-1530722867413-7888"
+    ],
+    "filtering_method": "*",
+    "has_schedule": {
+      "resource": "schedule-0",
+      "live": [
+        "schedule-1530724419819-1913"
+      ],
+      "prebook": [
+        "schedule-1530724419819-1913"
+      ]
+    },
+    "permissions": {
+      "ticket-by-id": {
+        "registered": true,
+        "postponed": true
+      },
+      "superadmin": true,
+      "can-report": {
+        "department-1": false,
+        "department-1530720923888-7072": true
+      },
+      "can-manage": {
+        "department-1": false,
+        "department-1530720923888-7072": true
+      },
+      "can-book": {
+        "department-1": false,
+        "department-1530720923888-7072": true
+      },
+      "can-admin": {
+        "department-1": false,
+        "department-1530720923888-7072": true
+      }
+    },
+    "state": "inactive",
+    "default_workstation": [],
+    "available_workstation": [
+      "pc-orenburg1-1"
+    ],
+    "@id": "human-1530720777456-8098",
+    "@type": "Employee"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "id": "rd-orenburg1-1",
+    "rev": "2-153e3acbe5d900000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "default_agent": "megatron-2",
+    "attached_to": "department-1530720923888-7072",
+    "device_type": "roomdisplay",
+    "occupied_by": [
+      "megatron-2"
+    ],
+    "pop_on_arrival": false,
+    "default_voice_duration": 15000,
+    "history_enabled": true,
+    "@id": "rd-orenburg1-1",
+    "display_design": "/production/room/design/default.html",
+    "@type": "Roomdisplay",
+    "label": "Тестовое Табло"
+  }
+}

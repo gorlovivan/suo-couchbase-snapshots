@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "id": "pc-registry-1530727354701-3564",
+    "rev": "1-153e3c6d10e700000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "attached_terminal": [],
+    "occupied_by": [],
+    "default_agent": "megatron-1",
+    "attached_to": "department-1",
+    "device_type": "registry",
+    "state": "inactive",
+    "@id": "pc-registry-1530727354701-3564",
+    "@type": "Workstation",
+    "label": "Тестовое служебное ЖО"
+  }
+}

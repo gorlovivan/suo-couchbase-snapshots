@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "id": "service-routing-map-department-1530720923888-7072",
+    "rev": "4-153e3882da5c00000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "service-routing-map-department-1530720923888-7072",
+    "routes": {
+      "include": [
+        {
+          "from": [],
+          "to": []
+        }
+      ],
+      "exclude": [
+        {
+          "from": [],
+          "to": []
+        }
+      ]
+    }
+  }
+}

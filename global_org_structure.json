@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "global_org_structure",
-    "rev": "2-152f1e14815400000000000000000000",
+    "rev": "8-15408483c16c00000000000000000000",
     "expiration": 0,
     "flags": 0
   },
@@ -94,6 +94,82 @@
             "value": 1
           }
         }
+      },
+      {
+        "@id": "office-1530720923888-7072",
+        "@type": "Office",
+        "has_unit": [
+          "department-1530720923888-7072"
+        ]
+      },
+      {
+        "label": "МАУ МФЦ",
+        "@id": "department-1530720923888-7072",
+        "@type": "Department",
+        "formatted_address": "Оренбург Раскова",
+        "unit_of": "office-1530720923888-7072",
+        "booking_methods": [],
+        "priority_description": {
+          "veteran": {
+            "value": 1
+          },
+          "invalid": {
+            "value": 1
+          }
+        },
+        "has_schedule": {
+          "live": [
+            "schedule-0"
+          ],
+          "prebook": [
+            "schedule-0"
+          ]
+        },
+        "notification_levels": {
+          "max-waiting-time": [
+            {
+              "code": "high",
+              "value": 3600,
+              "dnd": 60,
+              "message": "Красный уровень"
+            },
+            {
+              "code": "normal",
+              "value": 1800,
+              "dnd": 60,
+              "message": "Желтый уровень"
+            },
+            {
+              "code": "low",
+              "value": 900,
+              "dnd": 60,
+              "message": "Зеленый уровень"
+            }
+          ]
+        },
+        "employee_resource_enabled": true,
+        "workstation_resource_enabled": false,
+        "pin_code_prefix": "252",
+        "prebook_label_prefix": "П",
+        "prebook_expiration_interval": "600",
+        "prebook_slot_uniq_interval": "300",
+        "prebook_observe_offset": "300",
+        "prebook_observe_max_slots": "100",
+        "prebook_show_interval": "300",
+        "prebook_register_interval": "1",
+        "live_autorestore": "300",
+        "live_autopostpone": "120",
+        "live_autopostpone_count": "1",
+        "error_dialog_duration": "10",
+        "mkgu_code": "9381",
+        "okato": "53401373000",
+        "auto_logout_time": "00:10",
+        "auto_warmup_time": "00:15",
+        "auto_expire_time": "23:00",
+        "qa_enabled": true,
+        "workstation_filtering_enabled": true,
+        "sound_theme": "smotrova",
+        "org_timezone": "Asia/Yekaterinburg"
       }
     ]
   }

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "id": "registry_workstation_department-1530720923888-7072",
+    "rev": "10-153e3c6d110700000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "registry_workstation_department-1530720923888-7072",
+    "@type": "Registry",
+    "@content_type": "Workstation",
+    "content": {
+      "terminal": [
+        "terminal-orenburg1-1"
+      ],
+      "roomdisplay": [
+        "rd-orenburg1-1"
+      ],
+      "digital-display": [],
+      "control-panel": [
+        "pc-orenburg1-1"
+      ],
+      "registry": [
+        "pc-registry-1530727354701-3564"
+      ],
+      "call-center": [
+        "pc-call-center-1530727298198-700"
+      ],
+      "reports": [
+        "pc-reports"
+      ],
+      "reception": [
+        "pc-reception"
+      ]
+    }
+  }
+}

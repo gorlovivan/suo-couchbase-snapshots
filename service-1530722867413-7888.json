@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "id": "service-1530722867413-7888",
+    "rev": "5-153e3ec2698300000000000002000000",
+    "expiration": 0,
+    "flags": 33554432
+  },
+  "json": {
+    "linked_to": [
+      "department-1530720923888-7072"
+    ],
+    "@id": "service-1530722867413-7888",
+    "@type": "Service",
+    "code_frgu": "56000000012001",
+    "dept_code_frgu": "56000000012002",
+    "prebook_offset": 0,
+    "has_schedule": {
+      "live": [
+        "schedule-1530724419819-1913"
+      ],
+      "prebook": [
+        "schedule-1530724419819-1913"
+      ]
+    },
+    "live_operation_time": "900",
+    "ordering": 1,
+    "prebook_interval": "15",
+    "prebook_operation_time": "900",
+    "prebook_percentage": 100,
+    "prebook_today_percentage": 0,
+    "priority": 0,
+    "prefix": "Т",
+    "service_code_epgu": "56000000012003",
+    "label": "Тестовая услуга",
+    "short_label": "Тестовая услуга Короткое наименование услуги",
+    "custom_fields": {
+      "service_count_prebook": true,
+      "service_count": true
+    }
+  }
+}

@@ -1,16 +1,15 @@
 {
   "meta": {
-    "id": "registry_service",
-    "rev": "11-153e3ec269c600000000000002000000",
+    "id": "registry_service_department-1530720923888-7072",
+    "rev": "9-153e3ec269c500000000000002000000",
     "expiration": 0,
     "flags": 33554432
   },
   "json": {
-    "@id": "registry_service",
+    "@id": "registry_service_department-1530720923888-7072",
     "@type": "Registry",
     "@content_type": "Service",
     "content": [
-      "service-1",
       "service-1530722867413-7888"
     ]
   }
