@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "lookup_task_prebook-add-task--auto-warmup-all--department-1530720923888-7072",
+    "rev": "36-15408571cd5e00005b48fa3402000000",
+    "expiration": 1531509300,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "lookup_task_prebook-add-task--auto-warmup-all--department-1530720923888-7072",
+    "@category": "Task",
+    "@type": "Lookup",
+    "content": "task-425395-1"
+  }
+}

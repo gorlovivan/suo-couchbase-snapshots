@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "id": "task-425393-3",
+    "rev": "7-15408571cc9300005b48de1402000000",
+    "expiration": 1531502100,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425393-3",
+    "@type": "Task",
+    "identifier": "prebook-add-task--auto-warmup-all--department-1",
+    "solo": true,
+    "cancellation_code": "department-1",
+    "stime": 1531415700576,
+    "time": 45103,
+    "regular": false,
+    "task_name": "",
+    "module_name": "prebook",
+    "task_type": "add-task",
+    "params": {
+      "_action": "auto-warmup-all",
+      "organization": {
+        "department-1": {
+          "org_addr": "office-1.department-1",
+          "org_chain": {
+            "0": {
+              "pin_code_prefix": "001",
+              "has_schedule": {
+                "live": [
+                  {
+                    "has_time_description": [
+                      {
+                        "data": [
+                          [
+                            0,
+                            83460
+                          ]
+                        ],
+                        "state": "a"
+                      }
+                    ],
+                    "has_day": [
+                      "Thursday",
+                      "Monday",
+                      "Tuesday",
+                      "Saturday",
+                      "Friday",
+                      "Wednesday",
+                      "Sunday"
+                    ],
+                    "id": "schedule-0",
+                    "type": "Schedule",
+                    "label": "Основное расписание",
+                    "cas": "1526473762150744064",
+                    "class": "Schedule"
+                  }
+                ],
+                "prebook": [
+                  {
+                    "has_time_description": [
+                      {
+                        "data": [
+                          [
+                            0,
+                            83460
+                          ]
+                        ],
+                        "state": "a"
+                      }
+                    ],
+                    "has_day": [
+                      "Thursday",
+                      "Monday",
+                      "Tuesday",
+                      "Saturday",
+                      "Friday",
+                      "Wednesday",
+                      "Sunday"
+                    ],
+                    "id": "schedule-0",
+                    "type": "Schedule",
+                    "label": "Основное расписание",
+                    "cas": "1526473762150744064",
+                    "class": "Schedule"
+                  }
+                ]
+              },
+              "unit_of": "office-1",
+              "formatted_address": "Адрес офиса",
+              "id": "department-1",
+              "type": "Department",
+              "label": "базовый офис",
+              "class": "Organization"
+            },
+            "1": {
+              "okato": "69401372000",
+              "pin_code_prefix": "001",
+              "has_unit": [
+                "department-1"
+              ],
+              "org_timezone": "Asia/Krasnoyarsk",
+              "booking_methods": [
+                "live",
+                "prebook"
+              ],
+              "live_autopostpone": 120,
+              "live_autorestore": 300,
+              "live_autopostpone_count": 1,
+              "prebook_expiration_interval": 600,
+              "prebook_show_interval": 300,
+              "prebook_label_prefix": "П",
+              "prebook_observe_offset": 300,
+              "prebook_register_interval": 1,
+              "error_dialog_duration": 10,
+              "formatted_address": "Адрес офиса",
+              "mkgu_code": "4722",
+              "qa_enabled": true,
+              "auto_logout_time": "00:10",
+              "auto_warmup_time": "00:15",
+              "auto_expire_time": "23:00",
+              "workstation_resource_enabled": true,
+              "employee_resource_enabled": false,
+              "workstation_filtering_enabled": true,
+              "employee_filtering_enabled": false,
+              "notification_levels": {
+                "max-waiting-time": [
+                  {
+                    "code": "high",
+                    "value": 1800,
+                    "dnd": 60,
+                    "message": "Красный уровень"
+                  },
+                  {
+                    "code": "normal",
+                    "value": 1200,
+                    "dnd": 60,
+                    "message": "Желтый уровень"
+                  },
+                  {
+                    "code": "low",
+                    "value": 900,
+                    "dnd": 60,
+                    "message": "Зеленый уровень"
+                  }
+                ]
+              },
+              "sound_theme": "smotrova",
+              "id": "office-1",
+              "type": "Office",
+              "label": "Базовый офис",
+              "class": "Organization",
+              "has_schedule": {}
+            }
+          },
+          "org_merged": {
+            "okato": "69401372000",
+            "pin_code_prefix": "001",
+            "has_unit": [
+              "department-1"
+            ],
+            "org_timezone": "Asia/Krasnoyarsk",
+            "booking_methods": [
+              "live",
+              "prebook"
+            ],
+            "live_autopostpone": 120,
+            "live_autorestore": 300,
+            "live_autopostpone_count": 1,
+            "prebook_expiration_interval": 600,
+            "prebook_show_interval": 300,
+            "prebook_label_prefix": "П",
+            "prebook_observe_offset": 300,
+            "prebook_register_interval": 1,
+            "error_dialog_duration": 10,
+            "formatted_address": "Адрес офиса",
+            "mkgu_code": "4722",
+            "qa_enabled": true,
+            "auto_logout_time": "00:10",
+            "auto_warmup_time": "00:15",
+            "auto_expire_time": "23:00",
+            "workstation_resource_enabled": true,
+            "employee_resource_enabled": false,
+            "workstation_filtering_enabled": true,
+            "employee_filtering_enabled": false,
+            "notification_levels": {
+              "max-waiting-time": [
+                {
+                  "code": "high",
+                  "value": 1800,
+                  "dnd": 60,
+                  "message": "Красный уровень"
+                },
+                {
+                  "code": "normal",
+                  "value": 1200,
+                  "dnd": 60,
+                  "message": "Желтый уровень"
+                },
+                {
+                  "code": "low",
+                  "value": 900,
+                  "dnd": 60,
+                  "message": "Зеленый уровень"
+                }
+              ]
+            },
+            "sound_theme": "smotrova",
+            "id": "department-1",
+            "type": "Department",
+            "label": "базовый офис",
+            "class": "Organization",
+            "has_schedule": {
+              "live": [
+                {
+                  "has_time_description": [
+                    {
+                      "data": [
+                        [
+                          0,
+                          83460
+                        ]
+                      ],
+                      "state": "a"
+                    }
+                  ],
+                  "has_day": [
+                    "Thursday",
+                    "Monday",
+                    "Tuesday",
+                    "Saturday",
+                    "Friday",
+                    "Wednesday",
+                    "Sunday"
+                  ],
+                  "id": "schedule-0",
+                  "type": "Schedule",
+                  "label": "Основное расписание",
+                  "cas": "1526473762150744064",
+                  "class": "Schedule"
+                }
+              ],
+              "prebook": [
+                {
+                  "has_time_description": [
+                    {
+                      "data": [
+                        [
+                          0,
+                          83460
+                        ]
+                      ],
+                      "state": "a"
+                    }
+                  ],
+                  "has_day": [
+                    "Thursday",
+                    "Monday",
+                    "Tuesday",
+                    "Saturday",
+                    "Friday",
+                    "Wednesday",
+                    "Sunday"
+                  ],
+                  "id": "schedule-0",
+                  "type": "Schedule",
+                  "label": "Основное расписание",
+                  "cas": "1526473762150744064",
+                  "class": "Schedule"
+                }
+              ]
+            },
+            "unit_of": "office-1"
+          }
+        }
+      }
+    },
+    "completed": false
+  }
+}

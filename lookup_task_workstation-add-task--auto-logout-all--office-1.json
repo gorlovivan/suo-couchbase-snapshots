@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "lookup_task_workstation-add-task--auto-logout-all--office-1",
+    "rev": "31-15408571c84a00005b48dce802000000",
+    "expiration": 1531501800,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "lookup_task_workstation-add-task--auto-logout-all--office-1",
+    "@category": "Task",
+    "@type": "Lookup",
+    "content": "task-425393-0"
+  }
+}

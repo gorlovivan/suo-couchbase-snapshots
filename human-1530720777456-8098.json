@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "human-1530720777456-8098",
-    "rev": "15-154085219e2900000000000002000000",
+    "rev": "16-154085a5686a00000000000002000000",
     "expiration": 0,
     "flags": 33554432
   },
@@ -43,7 +43,7 @@
         "department-1530720923888-7072": true
       }
     },
-    "state": "inactive",
+    "state": "active",
     "default_workstation": [],
     "available_workstation": [
       "pc-orenburg1-1"

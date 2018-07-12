@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "id": "task-425391-1",
+    "rev": "5-15408571c9cb00005b48cc7f02000000",
+    "expiration": 1531497599,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425391-1",
+    "@type": "Task",
+    "identifier": "queue-add-task--daily-expiration--office-1",
+    "solo": true,
+    "cancellation_code": "office-1",
+    "stime": 1531411199564,
+    "time": 40602,
+    "regular": false,
+    "task_name": "",
+    "module_name": "queue",
+    "task_type": "add-task",
+    "params": {
+      "_action": "daily-expiration",
+      "organization": "office-1"
+    },
+    "completed": false
+  }
+}

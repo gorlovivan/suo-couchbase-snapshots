@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "id": "lookup_task_workstation-add-task--auto-logout-all--department-1530720923888-7072",
+    "rev": "29-15408571c85200005b48f90802000000",
+    "expiration": 1531509000,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "lookup_task_workstation-add-task--auto-logout-all--department-1530720923888-7072",
+    "@category": "Task",
+    "@type": "Lookup",
+    "content": "task-425395-0"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "meta": {
     "id": "cache_active_agents",
-    "rev": "47-15408264668200000000000002000000",
+    "rev": "49-154085a568a800000000000002000000",
     "expiration": 0,
     "flags": 33554432
   },
@@ -17,6 +17,11 @@
           "megatron-3",
           "megatron-4",
           "megatron-6"
+        ]
+      },
+      "Employee": {
+        "active": [
+          "human-1530720777456-8098"
         ]
       }
     }

@@ -1,12 +1,14 @@
 {
   "meta": {
     "id": "pc-orenburg1-1",
-    "rev": "19-154066295fb200000000000002000000",
+    "rev": "20-154085a5675a00000000000002000000",
     "expiration": 0,
     "flags": 33554432
   },
   "json": {
-    "occupied_by": [],
+    "occupied_by": [
+      "human-1530720777456-8098"
+    ],
     "provides": [
       "service-1530722867413-7888"
     ],
@@ -21,7 +23,7 @@
     },
     "attached_to": "department-1530720923888-7072",
     "device_type": "control-panel",
-    "state": "inactive",
+    "state": "active",
     "@id": "pc-orenburg1-1",
     "@type": "Workstation",
     "label": "Окно1",

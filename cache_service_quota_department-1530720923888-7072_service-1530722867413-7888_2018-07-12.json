@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "id": "cache_service_quota_department-1530720923888-7072_service-1530722867413-7888_2018-07-12",
+    "rev": "10-1540858fdbb200005b6e69e402000000",
+    "expiration": 1533962724,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "cache_service_quota_department-1530720923888-7072_service-1530722867413-7888_2018-07-12",
+    "@category": "serviceQuota",
+    "@type": "Cache",
+    "content": {
+      "max_available": {
+        "live": 0,
+        "prebook": 0
+      },
+      "available": {
+        "live": 0,
+        "prebook": 0
+      },
+      "reserved": 0,
+      "max_solid": {
+        "live": 0,
+        "prebook": 0
+      }
+    }
+  }
+}

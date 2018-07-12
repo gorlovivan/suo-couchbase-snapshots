@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "id": "task-425393-1",
+    "rev": "9-15408571c7fc00005b48dce802000000",
+    "expiration": 1531501800,
+    "flags": 33554432
+  },
+  "json": {
+    "@id": "task-425393-1",
+    "@type": "Task",
+    "identifier": "workstation-add-task--auto-logout-all--department-1",
+    "solo": true,
+    "cancellation_code": "department-1",
+    "stime": 1531415400533,
+    "time": 44803,
+    "regular": false,
+    "task_name": "",
+    "module_name": "workstation",
+    "task_type": "add-task",
+    "params": {
+      "_action": "auto-logout-all",
+      "organization": "department-1",
+      "org_addr": "office-1.department-1"
+    },
+    "completed": false
+  }
+}
